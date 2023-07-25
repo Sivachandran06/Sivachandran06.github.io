@@ -1,54 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Semantic IMDb - Inception</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 10px 0;
+    }
+    nav {
+      text-align: center;
+      background-color: #f4f4f4;
+      padding: 10px 0;
+    }
+    nav a {
+      color: #333;
+      text-decoration: none;
+      padding: 5px 10px;
+      margin: 0 10px;
+    }
+    nav a:hover {
+      background-color: #333;
+      color: #fff;
+    }
+    summary {
+      text-align: justify;
+      padding: 20px;
+    }
+    section {
+      padding: 20px;
+    }
+    section h2 {
+      color: #333;
+      border-bottom: 1px solid #333;
+    }
+    aside {
+      background-color: #f4f4f4;
+      padding: 20px;
+      text-align: center;
+    }
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 10px 0;
+    }
+  </style>
 </head>
-
 <body>
-
-    <header>
-        <h1>Welcome to My Personal Portfolio</h1>
-    </header>
-
-    <section>
-        <h2>About Me</h2>
-        <p>Hello, I am [Your Name]. I am a passionate web developer and love to create amazing websites.</p>
-    </section>
-
-    <nav>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="#resume">Resume</a></li>
-        </ul>
-    </nav>
-
-    <section>
-        <h2>My Projects</h2>
-        <div>
-            <h3>Project 1</h3>
-            <p>This is a description of my first project.</p>
-        </div>
-        <div>
-            <h3>Project 2</h3>
-            <p>This is a description of my second project.</p>
-        </div>
-    </section>
-
-    <footer>
-        <p>Contact me at: [Your Email]</p>
-        <span>Follow me on social media: [Social Media Links]</span>
-    </footer>
-
+  <header>
+    <h1>Inception</h1>
+  </header> 
+  <nav>
+    <a href="#actor" id="nav-actor">Actors</a>
+    <a href="#quote" id="nav-quote">Quotes</a>
+  </nav>
+  <summary>
+    <p>
+      Inception is a mind-bending science fiction movie directed by Christopher Nolan. The film follows the story of Dom Cobb, a skilled thief who enters people's dreams to steal their secrets. When he is given a special task to plant an idea in someone's mind instead of stealing, he faces a challenging journey through various dreamscapes.
+    </p>
+  </summary>
+  <section id="actor">
+    <h2>Actors</h2>
+    <ul>
+      <li>Leonardo DiCaprio as Dom Cobb</li>
+      <li>Joseph Gordon-Levitt as Arthur</li>
+      <li>Ellen Page as Ariadne</li>
+      <li>Tom Hardy as Eames</li>
+      <li>Ken Watanabe as Saito</li>
+      <li>Cillian Murphy as Robert Fischer</li>
+    </ul>
+  </section>
+  <section id="quote">
+    <h2>Favorite Quote</h2>
+    <blockquote>
+      "What's the most resilient parasite? An idea. A single idea from the human mind can build cities. An idea can transform the world and rewrite all the rules."
+      <br>
+      <em>- Dom Cobb</em>
+    </blockquote>
+  </section>
+  <aside>
+    <p>IMDb Rating: 8.8/10</p>
+    <p>Release Date: July 16, 2010</p>
+  </aside>
+  <footer>
+    Produced by: Legendary Pictures
+  </footer>
 </body>
-</html>
-
-</body>
-
 </html>
